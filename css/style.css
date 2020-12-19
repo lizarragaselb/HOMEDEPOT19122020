@@ -74,7 +74,13 @@ h4 {
 
 .nav-link.active,
 .nav-link:hover {
-  color: #4981b3 !important;
+  color: #C4C4C4 !important;
+}
+
+.btn {
+  border: 1px solid white;
+  color: white;
+
 }
 
 .menu-icon{
