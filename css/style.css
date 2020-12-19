@@ -32,10 +32,13 @@ body {
   
 }
 
-#black {
-  align-items: center;
-  height: 50px;
-  padding: 1px;
+#secondary {
+  background-color:#595858 ;
+  width: 100%;
+  z-index: 1;
+  color: white;
+  
+
 }
 
 h4 {
@@ -43,13 +46,16 @@ h4 {
   font-size: 14px;
   font-weight: 300;
   text-justify: center;
-  padding: 1px;
 
 }
 
+#Tittle1 {
+  font-family: HelveticaNeue, Helvetica, sans-serif, Arial; 
+  font-size: 14px;
+  font-weight: 300;
+  text-justify: right;
 
-
-
+}
 
 
 /*============= NAVIGATION =============*/
@@ -58,7 +64,7 @@ h4 {
 }
 
 .nav-item {
-  padding:2px;
+  padding: 0px;
 }
 
 .nav-link {
@@ -69,6 +75,14 @@ h4 {
 .nav-link.active,
 .nav-link:hover {
   color: #4981b3 !important;
+}
+
+.menu-icon{
+  height: 44px;
+}
+
+.menu-icn{
+  margin-top: 21px
 }
 
 
@@ -113,7 +127,7 @@ h4 {
 /*============= MEDIA QUERIES =============*/
 
 /* Devices under 1199px (xl) */
-@media (max-width: 1921px) {
+@media (max-width: 1199.98px) {
 
 }
 /* Devices under 768px (md) */
