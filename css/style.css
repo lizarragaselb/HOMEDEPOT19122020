@@ -193,6 +193,10 @@ p {
     height: 5.94rem;
   }
 
+  .top-bar a {
+    font-size: 14px;
+    text-align: center;
+
 }
 /* Devices under 768px (md) */
 @media (max-width: 767.98px) {
@@ -203,6 +207,17 @@ p {
   .setLocation {
     display:none;
   }
+
+  .top-bar a {
+    font-size: 8px;
+    text-align: center;
+}
+
+@media(max-width: 375px){
+  .logo-col{
+    width: 75% !important;
+  }
+  
 }
 
 
